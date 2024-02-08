@@ -13,6 +13,20 @@ public class MainMenu : MonoBehaviour
         
     }
 
+    public void PlayLevel1()
+    {
+    
+        SceneManager.LoadSceneAsync(2);  
+        
+    }
+    
+    public void PlayLevel2()
+    {
+    
+        SceneManager.LoadSceneAsync(3);  
+        
+    }
+
     public void QuitGame()
     {
         Application.Quit();
