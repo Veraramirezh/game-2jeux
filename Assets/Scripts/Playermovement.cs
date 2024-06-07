@@ -48,4 +48,12 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
+    void OnTriggerEnter2d(Collider2D other) 
+    {
+        if (other.gameObject.CompareTag("Apple"))
+        {
+            Debug.Log("Hit appleéé");
+        }
+    }
 }
