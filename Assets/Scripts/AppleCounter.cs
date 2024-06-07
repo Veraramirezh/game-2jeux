@@ -5,7 +5,7 @@ using TMPro;
 public class AppleCounter : MonoBehaviour
 {
     public static AppleCounter instance;
-    public TMP_TEXT appleText;
+    public TMP_Text appleText;
     public int currentApples = 0; 
 
     void Awake()

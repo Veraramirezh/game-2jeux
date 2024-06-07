@@ -21,7 +21,7 @@ public class apple : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject)
+            Destroy(gameObject);
             AppleCounter.instance.IncreaseApples(value);
         
         }
